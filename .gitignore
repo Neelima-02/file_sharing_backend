@@ -1,0 +1,10 @@
+# Pycharm
+.idea/
+
+# Basics
+*.pyc
+__pycache__
+# *.ipynb
+
+.venv/
+venv/
