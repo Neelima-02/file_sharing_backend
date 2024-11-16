@@ -121,3 +121,14 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'file_share.UserAccount'
+
+SITE_URL = "http://127.0.0.1:8000"
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'durgaraouppalapati11@gmail.com'  # Replace with your Gmail address
+EMAIL_HOST_PASSWORD = 'yieglfzehndxylou'  # Replace with your App Password
+DEFAULT_FROM_EMAIL = 'durgaraouppalapati11@gmail.com'
+
